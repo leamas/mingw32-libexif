@@ -2,7 +2,7 @@
 
 Name:           mingw-libexif
 Version:        0.6.21
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        mingw port of tool for extracting extra information from image files
 
 License:        LGPLv2+
@@ -120,6 +120,9 @@ rm -rf %{buildroot}%{mingw64_datadir}/doc/libexif/libexif-api.html
 
 
 %changelog
+* Sun Oct 13 2019 Alec Leamas <leamas.alec@gmail.com> - 0.6.21-3
+- rebuilt
+
 * Sun Oct 13 2019 Alec Leamas <leamas.alec@gmail.com> - 0.6.21-2
 - rebuilt
 
